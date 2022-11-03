@@ -52,12 +52,12 @@ header > h1 {
 header > p{
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    padding: 15px 0 15px 0;
+    padding: 15px 0 25px 0;
     max-width: 500px;
     margin: auto;
     padding: 0 10px 0 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
-    margin-bottom: 20px;
+    
 }
 
 nav {
