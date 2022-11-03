@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body#home{
+	background: url(imagens/fundo.png);
+}
+
+body#quemsomos, body#contato{
+	background: url(imagens/fundo2.png);
+}
+
+header{
+	width: 900px;
+	margin: auto;
+}
+
+div#logo{
+	background: url(imagens/logo.png) no-repeat ;
+	display:  inline-block;
+	width: 300px;
+	height: 79px;
+	margin-top: 25px;
+	text-indent: -9000px
+
+}
+
+nav{
+	display: inline;
+	float: right;
+	margin-top: 48px;
+
+}
+
+main{
+	width: 900px;
+	margin: auto;
+
+}
+
+div#capa{
+	background: url(imagens/capa.png);
+	height: 415px;
+}
+div#textoprincipal{
+	margin-top: 27px;
+}
+
+
+
+footer{
+	width: 900px;
+	margin: auto;
+	text-align: center;
+
+}
+
+/*formartação pag quem somos*/
+
+#motivos ol{
+	margin-left: 35px;
+}
+
+section#motivos{
+	border-bottom: solid black 1px;
+}
+
+/*formartação pag contato*/
+
+section#econtato{
+	border-bottom: solid black 1px;
+}
+
+form input, form textarea{
+	display: block;
+}
