@@ -9,6 +9,8 @@
 
 <a href="https://felipevolpi-dev.github.io/treino-site/projeto-cordel/index.html">Projeto Cordel</a><br>
 
+https://felipevolpi-dev.github.io/treino-site/projeto-rede-social/index.html
+
 
 
 
