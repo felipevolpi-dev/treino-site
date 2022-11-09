@@ -75,7 +75,7 @@ div#formulario > p {
 /*Tela pequena deitada*/
 
 
-@media screen and (min-width: 568px) and (max-height: 411px) and (max-width: 768px)  {   
+@media screen and (min-width: 480px) and (max-height: 411px) and (max-width: 768px)  {   
     
     body {
         background-image: linear-gradient(black, #262522, #A65A49);
