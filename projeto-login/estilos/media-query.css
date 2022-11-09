@@ -19,7 +19,7 @@
     section#login {  
         width: 80vw; 
         height: 90vh;
-        max-height: 600px;          
+        max-height: 400px;          
 
     }
     section#login > div#imagem {
