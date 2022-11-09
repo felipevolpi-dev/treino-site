@@ -17,6 +17,15 @@
     box-sizing: border-box;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+
 body, html{
     background-color: #262522;
     height: 100vh;
@@ -36,7 +45,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: white;
+    background-color:white;
     width: 270px;
     height: 540px;
     border-radius: 20px;
@@ -47,7 +56,7 @@ section#login {
 }
 
 section#login > div#imagem {    
-    background: #8C5E4D url(../imagens/pexels-eberhard-grossgasteiger-2086359.jpg);
+    background: #BF8975 url(../imagens/pexels-eberhard-grossgasteiger-2086359.jpg);
     border-radius: 20px 20px 0px 0px;
     background-size: cover;
     background-position: center;
@@ -68,7 +77,59 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #7e5d51;
+    color: white;
+    font-weight: bold ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0 10px 0;
 
+}
+
+form > input[type=submit]:hover{
+    background-color: #262522;
+
+}
+
+
+form > a.esqueci {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #7e5d51;
+    color: white;
+    font-weight: bold ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+    
+}
+
+form > a.esqueci:hover{
+    background-color: #262522;
+    
+
+}
+
+form > a.esqueci span.material-symbols-outlined{
+    color: #262522;     
+    vertical-align: middle;     
+}
+
+form > a.esqueci span.material-symbols-outlined:hover {
+    color: white;     
+         
+}
 
 
 
