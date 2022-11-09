@@ -17,19 +17,19 @@
     }
    
     section#login {  
-        width: 80vw;           
+        width: 90vw;           
 
     }
     section#login > div#imagem {
         float: left;
-        width: 30%;
+        width: 35%;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
     }
 
     section#login > div#formulario {
         float: right;
-        width: 70%;
+        width: 65%;
     }   
 
     div#formulario > h1 {
