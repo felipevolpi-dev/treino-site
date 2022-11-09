@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+/* Paleta de Cores
+    Cinza: #B8BEBF
+    Preto: #262522
+    Marrom claro: #BF8975
+    Marrom escuro: #8C5E4D
+    Marrom brilhante: #A65A49
+*/
+
+
+@media screen and (min-width: 786px) and (max-width: 922px) {   
+    
+    body {
+        background-image: linear-gradient(black, #262522, #A65A49);
+    }
+   
+    section#login {  
+        width: 80vw;           
+
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }   
+}
+
+@media screen and (min-width: 922px) {    
+
+    body {
+        background-image: linear-gradient(black, #262522, #A65A49);
+    }
+   
+    section#login {  
+        width: 900px;           
+
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
+    }
+}

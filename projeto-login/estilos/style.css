@@ -28,7 +28,7 @@ main {
 
 }
 
-section#login {
+section#login {    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -39,9 +39,12 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.411);
+
+    transition: width .2s, height .2s ;
+    transition-timing-function: ease;
 }
 
-section#login > div#imagem {
+section#login > div#imagem {    
     background: #8C5E4D url(../imagens/pexels-eberhard-grossgasteiger-2086359.jpg);
     border-radius: 20px 20px 0px 0px;
     background-size: cover;
@@ -49,6 +52,6 @@ section#login > div#imagem {
     height: 200px;
 }
 
-section#login > div#formulario {
+section#login > div#formulario {    
     padding: 10px;
 }
