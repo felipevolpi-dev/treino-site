@@ -9,8 +9,8 @@
     Marrom brilhante: #A65A49
 */
 
-/*Tela pequena*/
-@media screen and (min-width: 786px) and (min-height: 500px) and (max-width: 922px)  {   
+/*Tela pequena tablet*/
+@media screen and (min-width: 768px) and (min-height: 411px) and (max-width: 1024px)  {   
     
     body {
         background-image: linear-gradient(black, #262522, #A65A49);
@@ -41,45 +41,11 @@
     }
 }
 
-/*Tela pequena deitada*/
-
-
-@media screen and (min-width: 786px) and (max-width: 922px)  {   
-    
-    body {
-        background-image: linear-gradient(black, #262522, #A65A49);
-    }
-   
-    section#login {  
-        width: 80vw; 
-        height: 90vh;          
-
-    }
-    section#login > div#imagem {
-        float: left;
-        width: 30%;
-        height: 100%;
-        border-radius: 20px 0px 0px 20px;
-    }
-
-    section#login > div#formulario {
-        float: right;
-        width: 70%;
-    }   
-
-    div#formulario > h1 {
-        font-size: 1.8em;
-    }
-    
-    div#formulario > p {
-        font-size: 1.1em;
-    }
-}
 
 
 /*Tela Grande*/
 
-@media screen and (min-width: 922px) {    
+@media screen and (min-width: 922px) and (min-height: 769px){    
 
     body {
         background-image: linear-gradient(black, #262522, #A65A49);
