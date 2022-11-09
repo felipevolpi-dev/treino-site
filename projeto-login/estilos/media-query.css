@@ -10,26 +10,28 @@
 */
 
 /*Tela pequena tablet*/
-@media screen and (min-width: 768px) and (min-height: 411px) and (max-width: 1024px)  {   
+@media screen and (min-width: 500px)  and (max-width: 1024px)  {   
     
     body {
         background-image: linear-gradient(black, #262522, #A65A49);
     }
    
     section#login {  
-        width: 90vw;           
+        width: 80vw; 
+        height: 90vh;
+        max-height: 600px;          
 
     }
     section#login > div#imagem {
         float: left;
-        width: 35%;
+        width: 30%;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
     }
 
     section#login > div#formulario {
         float: right;
-        width: 65%;
+        width: 70%;
     }   
 
     div#formulario > h1 {
@@ -42,10 +44,9 @@
 }
 
 
-
 /*Tela Grande*/
 
-@media screen and (min-width: 922px) and (min-height: 769px){    
+@media screen and (min-width: 922px) {    
 
     body {
         background-image: linear-gradient(black, #262522, #A65A49);

@@ -117,7 +117,7 @@ form > a.esqueci {
 
 form > a.esqueci:hover{
     background-color: #262522;
-    
+    color: white;  
 
 }
 
@@ -133,37 +133,6 @@ form > a.esqueci span.material-symbols-outlined:hover {
 
 
 
-/*Tela pequena deitada*/
-
-
-@media screen and (min-width: 480px) and (max-height: 411px) and (max-width: 768px)  {   
+  
     
-    body {
-        background-image: linear-gradient(black, #262522, #A65A49);
-    }
-   
-    section#login {  
-        width: 80vw; 
-        height: 90vh;          
-
-    }
-    section#login > div#imagem {
-        float: left;
-        width: 30%;
-        height: 100%;
-        border-radius: 20px 0px 0px 20px;
-    }
-
-    section#login > div#formulario {
-        float: right;
-        width: 70%;
-    }   
-
-    div#formulario > h1 {
-        font-size: 1.8em;
-    }
     
-    div#formulario > p {
-        font-size: 1.1em;
-    }
-}
