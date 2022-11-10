@@ -98,9 +98,11 @@ div.campo > input {
     height: 100%;
     width: calc(100% - 44.5px);
     border: none;
-    border-radius: 5px;    
-    transform: translateY(-10.5px); 
-    border: 1.5px solid #3D3F40;   
+    border-radius: 5px;  
+    border: 1.5px solid #3D3F40;    
+    box-shadow:  0 0 0 0;
+    transform: translateY(-10.6px); 
+     
     
 }
 
