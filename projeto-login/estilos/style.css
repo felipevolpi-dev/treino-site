@@ -95,9 +95,8 @@ div.campo > span.material-symbols-outlined{
 div.campo > input {
     background-color:#B8BEBF;
     font-size: 1em;    
-    height: 98%;
-    width: calc(100% - 44.5px);
-    border: none;
+    height: 95%;
+    width: calc(100% - 44.5px);    
     border-radius: 5px;  
     border: 1.5px solid #3D3F40;    
     transform: translateY(-10.5px); 
