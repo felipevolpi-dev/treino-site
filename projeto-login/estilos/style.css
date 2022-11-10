@@ -83,6 +83,7 @@ form > div.campo {
     height: 40px;
     border-radius: 5px;
     margin: 5px 0;
+    
 }
 div.campo > span.material-symbols-outlined{
     color:#262522;
@@ -97,14 +98,15 @@ div.campo > input {
     height: 100%;
     width: calc(100% - 44.5px);
     border: none;
-    border-radius: 5px;
-    border: 2px solid #262522;
-    transform: translateY(-10.3px);      
+    border-radius: 5px;    
+    transform: translateY(-10.4px); 
+    border: 1.5px solid #3D3F40;   
     
 }
 
 div.campo > input:focus-within{
-    background-color: white;
+    background-color: white;    
+    outline: 0;
 
 }
 
