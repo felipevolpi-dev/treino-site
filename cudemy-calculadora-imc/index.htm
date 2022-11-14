@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="estilo.css">
+   
+</head>
+<section>
+    <body>
+        <h1>Calculadora IMC</h1>
+        <div>
+            <p>Nome: <input type="text" name="nome" id="inome"></p>
+            <p>Altura(cm): <input type="number" name="altura" id="ialtura"></p>
+            <p>Peso(kg): <input type="number" name="peso" id="ipeso"> </p>
+            <input type="button" value="calcular" onclick="calcularimc()">
+        </div>
+        <div id="res">
+    
+        </div>
+</section>
+</body>
+
+<script>
+    function calcularimc() {
+    var nome = (document.querySelector('#inome').value )
+    var peso = Number(document.querySelector('#ipeso').value)
+    var altura = Number(document.querySelector('#ialtura').value)
+    altura /= 100
+    var imc = (peso / altura**2).toFixed(2)
+    var faixa = null 
+    var res = document.querySelector('#res') 
+    res.innerHTML =  " "  
+    
+    if (imc < 16){
+        faixa = 'Baixo peso muito grave'
+    }else if (imc >= 16 && imc < 16.99){
+        faixa = 'Baixo peso grave '
+    }else if (imc >= 17 && imc < 18.49){
+        faixa = 'Baixo peso'
+    }
+    else if (imc >= 18.5 && imc < 24.99){
+        faixa = 'Peso normal'
+    }
+    else if (imc >= 25 && imc < 29.99){
+        faixa = 'Sobrepeso'
+    }
+    else if (imc >= 30 && imc < 34.99){
+        faixa = 'Obesidade grau I'
+    }
+    else if (imc >= 35 && imc < 39.99){
+        faixa = 'Obesidade grau II'
+    }
+    else if (imc >= 40){
+        faixa = 'Obesidade grau III '
+    }
+
+    res.innerHTML = `   ${nome} possui índice de massa corporal igual a ${imc}, sendo classificado como: <br>${faixa}`
+
+    
+} 
+
+</script>
+</html>
