@@ -23,6 +23,21 @@ h1{
     text-align: center;
 }
 
+p{
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+
+input{
+    height: 2em;
+    width: 95%;
+    max-width: 350px;
+    font-size: 1em;
+    line-height: 98%;
+
+}
+
 footer{
     color: white;
     text-align: center; 
