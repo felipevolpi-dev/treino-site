@@ -18,5 +18,7 @@
 
 <a href="https://felipevolpi-dev.github.io/treino-site/cudemy-calculadora-imc/index.htm">Calculadora IMC</a><br>
 
+<a href="https://felipevolpi-dev.github.io/treino-site/calculadora-curso-udemy/index.htm">Calculadora</a><br>
+
 .......
 
