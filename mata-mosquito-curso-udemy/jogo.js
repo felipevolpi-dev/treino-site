@@ -1,5 +1,6 @@
 var altura = 0
 var largura = 0
+var vidas = 1
 
 function ajustaTamanhoPalcoJogo(){
     altura = window.innerHeight
@@ -13,9 +14,25 @@ ajustaTamanhoPalcoJogo() // Acionar quando inicializado, colocado no body para q
 
 
 function posicaoRandomica(){
+    
 
     if(document.querySelector('#imosca')){
         document.querySelector('#imosca').remove()
+        
+           
+        if(vidas > 3){
+            window.location.href = 'fim-de-jogo.html'
+            
+        }else {
+            document.querySelector(`#v${vidas}`).src="imagens/coracao_vazio.png"
+            vidas++
+        }
+            
+            
+            
+        
+        
+
     }// para nao quebrar teve testar se tem o elemento antes de remove-lo, obs. ele é removido no mesmo comando que ordena que outro apareça. 
 
     var posicaoX = Math.floor(Math.random() * largura) - 90
@@ -39,6 +56,9 @@ function posicaoRandomica(){
     mosca.style.top = posicaoY + 'px'
     mosca.style.position = 'absolute'
     mosca.id = 'imosca'
+    mosca.onclick = function(){
+        this.remove()
+    }
 
     document.body.appendChild(mosca)
 
